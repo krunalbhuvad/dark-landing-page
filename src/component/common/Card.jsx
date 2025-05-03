@@ -1,6 +1,6 @@
 export default function FeatureCard({ icon, title, description }) {
   return (
-    <div className="card-container relative h-full w-full overflow-hidden rounded-2xl border border-purple-500/20 bg-[#0f0d1d]">
+    <div className="card-container relative h-full w-full max-w-[100vw] overflow-hidden rounded-2xl border border-purple-500/20 bg-[#0f0d1d]">
       {/* Glow overlay */}
       <div className="flex h-full flex-col justify-between bg-dark">
         {/* Icon */}

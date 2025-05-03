@@ -48,7 +48,7 @@ export default function HeroSection() {
             </span>
             &nbsp;4.8 Beta is available to download &rsaquo;
           </div>
-          <h1 className="text-4xl font-extrabold leading-tight text-white md:text-6xl">
+          <h1 className="text-3xl font-extrabold leading-tight text-white lg:text-6xl">
             Revolutionizing the <br className="hidden md:block" />
             Future of Data Tracking
           </h1>

@@ -36,14 +36,14 @@ export default function TestimonialScroller() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="lg:mx mx-4 flex justify-center rounded-xl">
+        <div className="flex justify-center rounded-xl">
           <div
             className={`flex ${isLarge ? "flex-row" : "flex-col"} max-w-md justify-center gap-6`}
           >
             {[0, 1, 2].map((colIndex) => (
               <div
                 key={colIndex}
-                className="mx-auto w-full max-w-md"
+                className="mx-auto w-full max-w-[100vw]"
                 style={{
                   height: isLarge ? `${slideHeight * slidesPerView}px` : "auto",
                   width: isLarge ? "auto" : "100%",
@@ -52,16 +52,16 @@ export default function TestimonialScroller() {
                 <Swiper
                   direction={isLarge ? "vertical" : "horizontal"}
                   slidesPerView={isLarge ? slidesPerView : 1.2}
-                  spaceBetween={36}
+                  spaceBetween={24}
                   loop={true}
                   autoplay={{
                     delay: 1,
                     disableOnInteraction: false,
-                    reverseDirection: isLarge && colIndex === 1,
+                    reverseDirection: colIndex === 1,
                   }}
                   speed={3000}
                   modules={[Autoplay]}
-                  className={isLarge ? "h-full" : "w-full"}
+                  className={isLarge ? "h-full" : "max-w-screen w-full"}
                 >
                   {testimonials.map((text, index) => (
                     <SwiperSlide key={index}>
