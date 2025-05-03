@@ -1,6 +1,4 @@
-Here's a basic `README.md` file template for a **React + Vite** project. You can customize it according to your project's specifics like features, setup instructions, and deployment notes.
 
----
 
 ```markdown
 # React + Vite Project
