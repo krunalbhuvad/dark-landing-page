@@ -1,0 +1,30 @@
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_23_4505)">
+<g clip-path="url(#clip1_23_4505)">
+<g clip-path="url(#clip2_23_4505)">
+<mask id="mask0_23_4505" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="15" y="15" width="30" height="30">
+<path d="M15 15H45V45H15V15Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_23_4505)">
+<path d="M32.857 27.704L44.027 15H41.381L31.678 26.029L23.934 15H15L26.713 31.679L15 44.999H17.646L27.886 33.351L36.066 45H45M18.601 16.952H22.666L41.379 43.144H37.313" fill="url(#paint0_linear_23_4505)"/>
+</g>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="58" height="58" rx="11.5" stroke="#241C36"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_23_4505" x1="30" y1="15" x2="42.5" y2="44" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9020A8"/>
+<stop offset="1" stop-color="#C852FF"/>
+</linearGradient>
+<clipPath id="clip0_23_4505">
+<rect width="59" height="59" rx="12" fill="white"/>
+</clipPath>
+<clipPath id="clip1_23_4505">
+<rect width="59" height="59" rx="12" fill="white"/>
+</clipPath>
+<clipPath id="clip2_23_4505">
+<rect width="59" height="59" fill="white"/>
+</clipPath>
+</defs>
+</svg>
